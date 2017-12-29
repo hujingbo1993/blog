@@ -1,7 +1,7 @@
 /* ---------- 全局样式 ---------- */
 
 body {
-  width: 1100px;
+  width: 1600px;
   height: 100%;
   margin: 0 auto;
   padding-top: 40px;
@@ -75,4 +75,36 @@ a:hover {
 
 .post-content .tag.right a {
   color: #999;
+}
+
+.post-content p {
+  word-wrap: break-word;
+  word-break: break-all;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-size: 17px;
+  color: #505050;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.7;
+  font-weight: 400;
+  border: none;
+  padding: 0 16px;
+  white-space: normal;
+}
+
+#editor div,
+#editor textarea {
+  display: inline-block;
+  width: 49% !important;
+  height: 100%;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 0 20px;
+  overflow-x: hidden;
+}
+
+#editor div {
+  word-wrap: break-word;
+  word-break: break-all;
 }
